@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="automationFramework.Listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+
+  <test name="App testing">
+    <classes>
+      <class name="automationFramework.AppTest"/>
+       </classes>
+  </test>
+   
+       <test name="Validating the Users and Login">
+    <classes>
+      <class name="automationFramework.HomePage"/>
+       </classes>
+  </test> 
+      
+       <test name="Validating the Navigation Bar and Title">
+    <classes>
+      <class name="automationFramework.TitlePage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

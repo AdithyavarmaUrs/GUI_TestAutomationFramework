@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="automationFramework.Listeners"/>
+  </listeners>
+  <test name="Validating the Navigation Bar and Title(failed)">
+    <classes>
+      <class name="automationFramework.TitlePage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- automationFramework.TitlePage -->
+      <class name="automationFramework.HomePage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- automationFramework.HomePage -->
+    </classes>
+  </test> <!-- Validating the Navigation Bar and Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

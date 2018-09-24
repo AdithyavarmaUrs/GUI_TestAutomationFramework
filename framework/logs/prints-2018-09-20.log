@@ -1,0 +1,6 @@
+18:35:54.922 [main] INFO  resources.BrowserInvokation - Restricted User
+18:35:57.904 [main] INFO  resources.BrowserInvokation - Validated the navigation bar home link
+18:36:05.879 [main] INFO  resources.BrowserInvokation - Driver is initialized
+18:36:13.815 [main] INFO  resources.BrowserInvokation - Navigated to the HomePage
+18:36:14.008 [main] INFO  resources.BrowserInvokation - Successfuly validated the expexted text
+18:50:59.466 [main] INFO  resources.BrowserInvokation - Non-Restricted User
